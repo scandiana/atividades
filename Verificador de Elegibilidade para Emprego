@@ -1,0 +1,8 @@
+idade = int(input("Qual é a sua idade? "))
+nacionalidade = input("Qual é a sua nacionalidade? ")
+experiencia = int(input("Quantos anos de experiência você possui? "))
+
+if idade >= 18 and nacionalidade == 'brasileira' and experiencia >= 2:
+    print("Parabéns! Você é elegível para a vaga de emprego.")
+else:
+    print("Desculpe, você não atende aos requisitos para esta vaga de emprego.")
