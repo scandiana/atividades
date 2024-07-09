@@ -1,0 +1,7 @@
+palavras = ["python", "programacao", "exemplo", "lista", "letra"]
+letra = input("Digite a letra para filtrar as palavras: ")
+
+print(f"Palavras que começam com a letra '{letra}':")
+for palavra in palavras:
+    if palavra.startswith(letra):
+        print(palavra)
