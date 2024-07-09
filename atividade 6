@@ -1,0 +1,14 @@
+x = input('Digite um valor: ')
+maior = x
+menor = x
+
+for i in range (10):
+    x = input('digite um valor: ')
+    
+    if x > maior:
+        maior = x
+    elif x < menor: 
+        menor = x
+        
+print ('maior valor:', maior)
+print ('menor valor:', menor)
