@@ -1,0 +1,16 @@
+def fibonacci(n):
+    if n <= 0:
+        return []
+    elif n == 1:
+        return [0]
+    elif n == 2:
+        return [0, 1]
+    else:
+        fib_sequencia = fibonacci(n - 1)
+        fib_sequencia.append(fib_sequencia[-1] + fib_sequencia[-2])
+        return fib_sequencia
+
+n = 10 
+resultado = fibonacci(n)
+print("Os primeiros {n} números da sequência de Fibonacci são:")
+print(resultado)
